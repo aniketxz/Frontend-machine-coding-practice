@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-	const [data, setData] = useState(null)
+	const [data, setData] = useState([])
 	const [pageNumber, setPageNumber] = useState(1)
 	const [pageData, setPageData] = useState()
 	const [next, setNext] = useState(1)
